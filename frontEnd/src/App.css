@@ -3,19 +3,49 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Hind Siliguri", sans-serif;
+  background-color: rgba(224, 255, 255, 0.592);
 }
 .header {
   background-color: lightblue;
   width: 100%;
-  height: 100px;
+  height: 60px;
   display: flex;
   align-items: center;
   font-size: 40px;
 }
-header a {
+.header a {
   text-decoration: none;
   color: black;
   margin-left: 25px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.main-page {
+  margin: 10px;
+}
+.all-product {
+  display: flex;
+  justify-content: space-around;
+}
+.single-product {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product-image {
+  width: 300px;
+  height: 320px;
+}
+.name-price {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
 }
