@@ -1,0 +1,42 @@
+.main-signin {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: lightblue;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-part {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  justify-content: space-between;
+}
+.username,
+.password {
+  height: 35px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+}
+.btn-signin {
+  margin: 10px;
+  width: 100px;
+  height: 29px;
+  background-color: lightcyan;
+  border: none;
+  border-radius: 12px;
+}
+.sign-url {
+  color: lightcoral;
+}
+.red {
+  color: red;
+}

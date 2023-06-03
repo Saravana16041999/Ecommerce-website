@@ -1,6 +1,6 @@
 const data = [
   {
-    id: 1,
+    id: "1",
     tilte: "T-shirt",
     price: "1299",
     category: "mens-ware",
@@ -8,7 +8,7 @@ const data = [
     image: "/images/Photo-1.jpg",
   },
   {
-    id: 2,
+    id: "2",
     tilte: "T-shirt",
     price: "1299",
     category: "mens-ware",
@@ -16,7 +16,7 @@ const data = [
     image: "/images/Photo-2.jpg",
   },
   {
-    id: 3,
+    id: "3",
     tilte: "Shirt",
     price: "1000",
     category: "mens-ware",

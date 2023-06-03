@@ -1,7 +1,9 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useNavigate } from "react-router-dom";
+import { BsCart4 } from "react-icons/bs";
 
-const layout = () => {
+const Layout = () => {
+  const navigator = useNavigate();
   return (
     <div>
       <header className="header">
@@ -9,10 +11,21 @@ const layout = () => {
         <div>
           <Link to="/">Shop New</Link>
         </div>
+        <div className="other-products">
+          <h3>Shirts</h3>
+          <h3>T-Shirts</h3>
+          <h3>Shoes</h3>
+          <div className="cart">
+            <Link to="/cart">
+              <BsCart4 />
+            </Link>
+          </div>
+        </div>
       </header>
+      <main></main>
       <Outlet />
     </div>
   );
 };
 
-export default layout;
+export default Layout;
