@@ -1,9 +1,8 @@
 import React from "react";
-import { Outlet, Link, useNavigate } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import { BsCart4 } from "react-icons/bs";
 
 const Layout = () => {
-  const navigator = useNavigate();
   return (
     <div>
       <header className="header">

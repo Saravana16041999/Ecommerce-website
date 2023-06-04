@@ -7,9 +7,9 @@ const CheckOut = () => {
   return (
     <div>
       <h1>Order Sucessfully placed</h1>
-      {list.map((iteam) => {
+      {list.map((iteam, index) => {
         return (
-          <div>
+          <div key={index}>
             <div className="cart-left">
               <div className="cart-image">
                 <img src={iteam.image} alt={iteam.tilte} />

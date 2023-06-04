@@ -24,5 +24,3 @@ const data = [
     image: "/images/Photo-3.jpg",
   },
 ];
-
-export default data;

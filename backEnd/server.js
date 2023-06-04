@@ -77,6 +77,7 @@ app.get("/api/products/id/:id", (req, res) => {
   const product = data.products.find((x) => x.id === req.params.id);
   if (product) {
     res.send(product);
+    console.log(product);
   } else {
     res
       .status(404)
