@@ -17,7 +17,7 @@ const SignUp = () => {
     // const password = e.target[2].value;
     console.log(username, email, password);
 
-    fetch("/register", {
+    fetch("https://e-commerce-website-uznv.onrender.com/register", {
       method: "post",
       crossDomin: true,
       headers: {

@@ -33,7 +33,7 @@ const Productpage = () => {
       dispatch({ type: "FETCH_REQUEST" });
       try {
         const result = await axios.get(
-          `http://localhost:5000/api/products/id/${id}`
+          `https://e-commerce-website-uznv.onrender.com/api/products/id/${id}`
         );
         dispatch({ type: "FETCH_SUCCESS", payload: result.data });
       } catch (err) {

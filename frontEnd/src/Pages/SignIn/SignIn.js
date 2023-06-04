@@ -14,7 +14,7 @@ const SignIn = () => {
     e.preventDefault();
     // console.log(email, password);
 
-    fetch("/signin", {
+    fetch("https://e-commerce-website-uznv.onrender.com/signin", {
       method: "post",
       crossDomin: true,
       headers: {

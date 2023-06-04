@@ -26,7 +26,9 @@ const Home = () => {
     const fethData = async () => {
       dispatch({ type: "FETCH_REQUEST" });
       try {
-        const result = await axios.get("http://localhost:5000/api/products");
+        const result = await axios.get(
+          "https://e-commerce-website-uznv.onrender.com/api/products"
+        );
         console.log(result);
         dispatch({ type: "FETCH_SUCCESS", payload: result.data });
       } catch (err) {
